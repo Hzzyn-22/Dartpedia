@@ -27,14 +27,14 @@ CommandRunner({this.onError});
       Object? output = await results.command!.run(results);
       print(output.toString());
     }
-  }
-on Exception catch (exception) {
+  } on Exception catch (exception){
     if (onError != null) {
       onError!(exception);
     } else {
       rethrow;
     }
   }
+}
 
   void addCommand(Command command) {
     // TODO: handle error (Commands can't have names that conflict)
