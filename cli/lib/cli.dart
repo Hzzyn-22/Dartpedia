@@ -4,4 +4,4 @@ export 'src/logger.dart';
 
 int calculate() {
   return 6 * 7;
-
+}
