@@ -93,7 +93,7 @@ COMO EXECUTAR
 
 1.Clone o repositório
 
-git clone 
+rode o comando: git clone https://github.com/Hzzyn-22/Dartpedia.git
 
 2.Entre na pasta do projeto
 
@@ -101,16 +101,17 @@ cd dartpedia
 
 3.Instale as dependências
 
+uma vez dentro da pasta do projeto
 rode o comando: dart pub get
 
 4.Execute a aplicação
 
 entre na pasta cli/ com o comando : cd cli/
-rode o comando: dart run bin/cli.dart search blahblahblahblah
+rode o comando: dart run bin/cli.dart search (algo inextente) wfmdfospcsab .
 com este comando, buscando algo inesxistente a aplicação anota e guarda o erro dentro dentro do arquivo 2026_6_11_errors.txt que esta localizada
 no caminho dartpedia/cli/logs/2026_6_11_errors.txt
 
-rode o comando: dart run bin/cli.dart search Brazil
+rode o comando: dart run bin/cli.dart search (algo existente) Brazil .
 com este comando, buscando algo existente a aplicação entrega os links do wikipedia associados a palavra que foi buscada
 
 EQUIPE
